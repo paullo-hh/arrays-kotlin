@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.example</groupId>
-    <artifactId>ArraysKotlin</artifactId>
+    <artifactId>KotlinMarcoMaddo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ArraysKotlin</name>
     <description>ArraysKotlin</description>
@@ -53,6 +53,11 @@
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-test-junit5</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.classgraph</groupId>
+            <artifactId>classgraph</artifactId>
+            <version>4.8.138</version>
         </dependency>
     </dependencies>
 
