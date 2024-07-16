@@ -1,7 +1,7 @@
 package algoritmos
 
 //DESENVOLVIDO POR MIM
-/*fun main() {
+fun main() {
 
     println("A soma dos números é ${somarNumeros()}")
 
@@ -21,13 +21,14 @@ fun somarNumeros(): Int {
 
     return soma
 
-}*/
+}
 
 
 
 
 //DESENVOLVIDO PELO PROFESSOR
 
+/*
 
 fun main() {
 
@@ -50,3 +51,4 @@ private fun imprimirText(primeiroNumero: Int, segundoNumero: Int, soma: Int) {
 fun somarDoisNumeros(primeiroNumero:Int, segundoNumero:Int):Int {
     return (primeiroNumero + segundoNumero)
 }
+*/
