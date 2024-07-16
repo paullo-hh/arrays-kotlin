@@ -1,10 +1,10 @@
 fun main() {
 
-    println("Estamos no diretório: ${getPathAtual()}")
+    println("Estamos no diretório: ${getPathCurrent()}")
     println("Atualizado em ${getLocalDateTimeFormat()}")
 }
 
-fun getPathAtual():String {
+fun getPathCurrent():String {
 
     return System.getProperty("user.dir")
 }
