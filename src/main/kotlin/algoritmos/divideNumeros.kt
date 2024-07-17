@@ -7,7 +7,7 @@ fun main() {
 
 }
 
-fun dividir():Double {
+fun dividir(): Any {
 
     println("CALCULADORA - DIVISÃO")
 
@@ -18,9 +18,15 @@ fun dividir():Double {
     var num2 = readln().toDouble()
 
     //val divisao = num1 / num2
-    val divisao = dividirNumeros(num1,num2)
 
-    return divisao
+    val text = "Não há divisão pelo número '0'."
+
+    return if ((num1 != 0.0) || (num2 != 0.0)) {
+         dividirNumeros(num1,num2)
+    } else {
+        return text
+        Double.NaN
+    }
 }
 
 fun dividirNumeros(num1:Double, num2:Double):Double {
