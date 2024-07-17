@@ -1,8 +1,8 @@
 package algoritmos
 
 import java.text.DecimalFormat
-import java.util.*
 
+//DESENVOLVIDO POR MIM
 fun main() {
     println(calcularMedia())
 }
