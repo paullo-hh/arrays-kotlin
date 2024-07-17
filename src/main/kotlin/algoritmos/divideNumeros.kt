@@ -1,10 +1,10 @@
 package algoritmos
 
+import org.w3c.dom.Text
+
 //DESENVOLVIDO POR MIM
-fun main() {
-
-    println("A divisão dos números é ${dividir()}")
-
+fun main(){
+    dividir()
 }
 
 fun dividir(): Any {
@@ -19,13 +19,12 @@ fun dividir(): Any {
 
     //val divisao = num1 / num2
 
-    val text = "Não há divisão pelo número '0'."
+    val text = "Não há divisão pelo número '0'"
 
-    return if ((num1 != 0.0) || (num2 != 0.0)) {
-         dividirNumeros(num1,num2)
+    return if (num2 != 0.0) {
+        println("A divisão dos números é ${dividirNumeros(num1,num2)}")
     } else {
-        return text
-        Double.NaN
+        println("Não há divisão pelo número '0'")
     }
 }
 
